@@ -1,0 +1,108 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    height: 95vh;
+    align-items: center;
+
+}
+.protfolio-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.left-container h2{
+     line-height: 20px;
+}
+.left-container span{
+    color: lightgreen;
+}
+.left-container .wai{
+    border: 2px solid gray;
+    border-radius: 5px;
+    background-color: lightskyblue;
+    font-weight: 100;
+}
+.left-container .Email{
+    font-weight: 300;
+    
+    cursor: pointer;
+    text-decoration: none;
+    color:blue;
+}
+.left-container .info {
+    max-width: 500px;
+    line-height: 25px;
+    padding-left: 10px;
+    border-left: 3px solid ;
+    background-color: lightcyan;
+}
+.right-container img{
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+    box-shadow:
+    inset 0 0 50px #fff,
+    inset 20px 0 80px #f0f,
+    inset -20px 0 80px #0ff,
+    inset 20px 0 300px #f0f,
+    inset -20px 0 300px #0ff,
+    0 0 50px #fff,
+    -10px 0 80px #f0f,
+    10px 0 80px #0ff;}
+    
+.left-container .social-media .uil {
+    font-size: 1.3rem;
+}
+
+.left-container .social-media p {
+    line-height: 20px;
+}
+
+.left-container .social-media a {
+    color:green;
+}
+
+.left-container ul {
+    margin: 0;
+    padding: 0;
+}
+
+.left-container li {
+    list-style: none;
+    padding: 2px 30px;
+    margin: 20px 0;
+    background-color: #0000003A;
+    border-radius: 5px;
+    transition: all ease-in-out 0.5s;
+}
+
+.left-container li:hover {
+    background-color: blue;
+}
+
+.left-container li:hover a {
+    color: white;
+}
+
+  
+
+@media(max-width:442px){
+    .protfolio-container{
+        display: block;
+    }
+    .container{
+        height: 200vh;
+        margin: 20px;
+    }
+    .right-container img{
+        margin-right: 40px;
+    }
+}
